@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    padding: 4vmax 2vmax;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+.section1{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+.s1-left{
+    /* display: flex; */
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    height: 26.5vmax;
+    width: 70vmax;
+    background-color: aqua;
+}
+.s1-left-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.s1-left-up h3{
+    font: 100 solid "Gilroy";
+}
+.s1-left a{
+
+    
+}
